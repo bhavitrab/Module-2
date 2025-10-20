@@ -1,208 +1,174 @@
-# Name: Bhavitra B
-# Reg No: 25012160
+## DATE: 14.10.2025
+# name:B.Bhavitra
+# register no:25012160
+# Built-in Functions -Binary Conversion Using Built-in Functions in Python
 
-# Experiment No: 1a-Python  Program to print 1 to n natural numbers .
+## 🎯 Aim
+To write a Python program to convert the number **16** into its **binary representation** using built-in Python functions.
 
+## 🧠 Algorithm
+1. Assign the value `16` to a variable `a`.
+2. Use the built-in `bin()` function to convert the number to binary.
+3. Print the result.
 
-## AIM  
-To Python  Program to print 1 to n natural numbers .
-
-
-
-## ALGORITHM  
-Step 1: Start the program.
-Step 2: Take the necessary input(s) from the user.
-Step 3: Process the input(s) using suitable operations or conditions.
-Step 4: Display the result/output to the user.
-Step 5: Stop the program.
-
-## PROGRAM
-
+## 🧾 Program
+Add Code Here
 ```
-
-print('Natural Numbers are :')
-n=int(input())
-for i in range (1,n+1):
-    print(i)
-
+a = 16
+print(bin(a))
 ```
 
 
-## OUTPUT
-<img width="584" height="523" alt="image" src="https://github.com/user-attachments/assets/cd13d99d-8d0b-48da-b2c9-700584a6bf49" />
-
-
-## RESULT
-The program was executed successfully
-
-
-# Experiment No: 1b-Write a python program to define a function that accepts 2 values and return its  modulo value  
-
-
-## AIM  
-To Write a python program to define a function that accepts 2 values and return its  modulo value  
+## Output
+![WhatsApp Image 2025-10-19 at 19 21 03_ce56852a](https://github.com/user-attachments/assets/8d96f9fc-b6a6-4b22-9c56-8acc05ea1dd7)
 
 
 
-## ALGORITHM  
-Step 1: Start the program.
-Step 2: Take the necessary input(s) from the user.
-Step 3: Process the input(s) using suitable operations or conditions.
-Step 4: Display the result/output to the user.
-Step 5: Stop the program.
 
-## PROGRAM
+## Result
+The program successfully converts the number 16 into its binary representation and displays the result as 0b10000 on the screen.
+# Functions in Python: Modulo Calculator
 
+## 🎯 Aim
+To write a Python program that defines a function which accepts two values and returns their *modulo* using the % operator.
+
+## 🧠 Algorithm
+1. Define a function called result that takes two arguments a and b.
+2. Inside the function, compute the modulo using a % b.
+3. Print the result of the modulo operation.
+4. Get two integer inputs from the user.
+5. Call the result function with the user-provided values.
+
+## 🧾 Program
 ```
 def result(a,b):
-    result=a%b
-    print("modulo is",result)
+   return a%b
 a=int(input())
 b=int(input())
-
+modulo=result(a,b)
+print("modulo is",modulo)
 ```
 
-
-## OUTPUT
-<img width="498" height="259" alt="image" src="https://github.com/user-attachments/assets/a911ad9e-fbde-477b-9ff7-cae2ea91ade9" />
-
+## Output
+![WhatsApp Image 2025-10-19 at 19 22 56_dda9ceab](https://github.com/user-attachments/assets/8b040bc5-e390-4c61-ab87-6aa5d8a165a2)
 
 
-## RESULT
-The program was executed successfully
+## Result
+The program successfully defines a function and returns the modulo of the two inputs
+# Lambda Function in Python: Addition of Two Numbers
 
+## 🎯 Aim
+To write a Python program that defines a **lambda function** which takes two arguments `a` and `b`, and returns their sum.
 
+## 🧠 Algorithm
+1. Get two integer inputs from the user.
+2. Use a **lambda function** to define a function `f` that returns `a + b`.
+3. Call the function with the user inputs and print the result.
 
-# Experiment No: 1c-Write a lambda function which takes z as a parameter and returns z*11 using python
-
-
-
-
-## AIM  
-ToWrite a lambda function which takes z as a parameter and returns z*11 using python
-
-
-
-
-## ALGORITHM  
-Step 1: Start the program.
-Step 2: Take the necessary input(s) from the user.
-Step 3: Process the input(s) using suitable operations or conditions.
-Step 4: Display the result/output to the user.
-Step 5: Stop the program.
-
-## PROGRAM
-
+## 🧾 Program
 ```
-f = lambda z: z * 11
-
-# Example usage
-num = int(input())
-print(f(num))
-```
-
-
-## OUTPUT
-<img width="503" height="206" alt="image" src="https://github.com/user-attachments/assets/0acff2e0-863d-449e-bfa0-a1471d732f7e" />
-
-
-
-## RESULT
-The program was executed successfully
-
-
-
-
-# Experiment No: 1d-Write the program to print inverted pyramid pattern of numbers .Get the input for the number of rows  to be displayed .
-
-
-
-
-
-## AIM  
-To Write the program to print inverted pyramid pattern of numbers .Get the input for the number of rows  to be displayed .
-
-
-
-
-## ALGORITHM  
-Step 1: Start the program.
-Step 2: Take the necessary input(s) from the user.
-Step 3: Process the input(s) using suitable operations or conditions.
-Step 4: Display the result/output to the user.
-Step 5: Stop the program.
-
-## PROGRAM
-
-```
-rows=int(input())
-b=0
-for i in range(rows,0,-1):
-    b+=1
-    for j in range(1,i+1):
-        print(b,end=' ')
-    print()
-```
-
-
-## OUTPUT
-<img width="443" height="488" alt="image" src="https://github.com/user-attachments/assets/9c45548b-6356-454e-9ad9-5abc1e5251e0" />
-
-
-
-## RESULT
-The program was executed successfully
-
-
-# Experiment No: 1e-Write a python program to read and print the real and imaginary part of the complex number.
-
-
-
-
-
-## AIM  
-To Write a python program to read and print the real and imaginary part of the complex number.
-
-
-
-## ALGORITHM  
-Step 1: Start the program.
-Step 2: Take the necessary input(s) from the user.
-Step 3: Process the input(s) using suitable operations or conditions.
-Step 4: Display the result/output to the user.
-Step 5: Stop the program.
-
-## PROGRAM
-
-```
-real=int(input())
-imag=int(input())
-c=complex(real,imag)
+a=int(input())
+b=int(input())
+f=lambda a,b:a+b
+c=f(a,b)
 print(c)
-print(c.real)
-print(c.imag)
+```
+## Output
+![WhatsApp Image 2025-10-19 at 21 13 47_17ad1f12](https://github.com/user-attachments/assets/24c80356-08bf-4aff-bc88-689ed4835fca)
+
+
+## Result
+The program successfully created lambda function to find the sum 
+# 🔺 Looping(Patterns)-Pascal's Triangle Generator in Python
+
+This project demonstrates a simple Python program to generate **Pascal’s Triangle**, where the number of rows is provided by the user.
+
+---
+
+## 🎯 Aim
+
+To write a Python program that generates **Pascal's Triangle** using numbers. The number of rows is accepted from the user.
+
+---
+
+## 🧠 Algorithm
+
+1. Start the program.
+2. Input the number of rows from the user.
+3. Loop from 0 to the number of rows.
+4. For each row:
+   - Print appropriate spaces to shape the triangle.
+   - Compute values using the formula:  
+     \[
+     C(n, k) = \frac{n!}{k!(n-k)!}
+     \]
+5. Print all rows of Pascal’s Triangle.
+6. End the program.
+
+---
+
+## 🧪 Program
+Add Code Here
+```
+def pascal_triangle(n):
+    for i in range(n):
+        print(" "*(n-i-1),end="")
+        val=1
+        for j in range(i+1):
+            print(val,end=" ")
+            val=val*(i-j)//(j+1)
+        print()
+n=int(input())
+pascal_triangle(n)
 ```
 
 
-## OUTPUT
-<img width="392" height="330" alt="image" src="https://github.com/user-attachments/assets/b98a3679-44a8-40ed-a265-e370579213f2" />
-
-
-
-## RESULT
-The program was executed successfully
+## Sample Output
+![WhatsApp Image 2025-10-19 at 19 31 36_831fbaf4](https://github.com/user-attachments/assets/818e79d2-e43f-47e8-b1bd-0ba71c278922)
 
 
 
 
+## Result
+The Python program successfully takes the number of rows as input from the user and generates Pascal’s Triangle.
+
+## Loops in Python: Palindrome Number Checker
+
+## 🎯 Aim
+To write a Python program that checks whether a given number is a **palindrome** using loops.
+
+## 🧠 Algorithm
+1. Get input from the user and assign it to a variable `num`.
+2. Assign the value of `num` to a temporary variable `temp`.
+3. Initialize a variable `rev` to 0 (used to store the reversed number).
+4. Use a `while` loop to reverse the digits:
+   - While `temp > 0`:
+     - `rev = (10 * rev) + temp % 10`
+     - `temp = temp // 10`
+5. After the loop, compare `rev` with `num`:
+   - If equal, print that the number is a palindrome.
+   - Else, print that it is not a palindrome.
+
+## 🧾 Program
+Add code Here
+```
+n=int(input())
+rev=0
+org=n
+while n>0:
+    rem=n%10
+    rev=rev*10+rem
+    n//=10
+if(rev==org):
+  print("The given number",org,"is a Palindrome")
+else:
+    print("The given number",org,"is not a palindrome")
+```
+## Output
+![WhatsApp Image 2025-10-19 at 19 34 44_b76ebad9](https://github.com/user-attachments/assets/2eef6559-26f4-43c4-b6e5-d6e94e3e0548)
 
 
 
-
-
-
-
-
-
-## RESULT
-Thus the program "Get and Print Any Vowels Using Character Literal" was successfully executed and verified.
+## Result
+The program successfully takes a number as input from the user, reverses it using a while loop, and compares it with the original number.
+If both are equal, it confirms that the number is a palindrome; otherwise, it displays that it is not a palindrome.
